@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-10218.235 -5751.679 91.154 82.188">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #e6e6e6;
+      }
+
+      .cls-2 {
+        fill: #fea000;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3, .cls-5 {
+        stroke: #4d4d4d;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-4 {
+        stroke: #fea000;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="Group_4767" data-name="Group 4767" transform="translate(-10572 -7004)">
+    <rect id="Rectangle_2045" data-name="Rectangle 2045" class="cls-1" width="55.557" height="15.595" transform="translate(357.227 1271.588)"/>
+    <path id="Path_3988" data-name="Path 3988" class="cls-2" d="M-4992.478,11773.078v9.829l-3.859,3.935-10.418,2.425h-34.922l-4.477-2.425-3.166-3.935s.929-6.525,0-7.235-.936-2.594-.936-2.594Z" transform="translate(5406.258 -10456.579)"/>
+    <line id="Line_413" data-name="Line 413" class="cls-3" x2="10.514" transform="translate(432.716 1316.301) rotate(180)"/>
+    <line id="Line_422" data-name="Line 422" class="cls-4" x2="20.071" transform="translate(442.919 1303.729) rotate(180)"/>
+    <line id="Line_423" data-name="Line 423" class="cls-3" x2="15.566" transform="translate(437.769 1291.157) rotate(180)"/>
+    <line id="Line_428" data-name="Line 428" class="cls-3" x1="55.396" transform="translate(356.9 1316.499)"/>
+    <line id="Line_429" data-name="Line 429" class="cls-3" x1="55.396" transform="translate(356.9 1287.258)"/>
+    <path id="Path_13" data-name="Path 13" class="cls-5" d="M113.44,78.1V64.864A10.634,10.634,0,0,1,124.074,54.23h0a10.634,10.634,0,0,1,10.634,10.634V78.1" transform="translate(260.568 1200.091)"/>
+    <path id="Path_12" data-name="Path 12" class="cls-5" d="M1,9.28H59.016V61.964c0,4.657-4.341,8.433-9.695,8.433H10.695C5.341,70.4,1,66.622,1,61.964Z" transform="translate(354.764 1262.112)"/>
+  </g>
+</svg>

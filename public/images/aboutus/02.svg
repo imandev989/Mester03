@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-9883.562 -5752.794 67.267 83.872">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #4d4d4d;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: #e6e6e6;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+
+      .cls-4 {
+        fill: #fea000;
+      }
+    </style>
+  </defs>
+  <g id="Group_4766" data-name="Group 4766" transform="translate(-10570 -7004)">
+    <line id="Line_430" data-name="Line 430" class="cls-1" x1="52.835" transform="translate(693.665 1333.078)"/>
+    <path id="security-on" class="cls-2" d="M93.066,12.953C80.012,12.953,70.012,9.223,61.555,1,53.1,9.223,43.1,12.953,30.047,12.953c-.3-4.324,0-10.761,0-15.453,20.178,0,27.077-7.934,31.508-13.182C65.376-11.08,73.021-2.5,93.066-2.5Z" transform="translate(658.515 1270.004)"/>
+    <path id="security-on-2" data-name="security-on" class="cls-3" d="M93.066,11.953C80.012,11.953,70.012,8.223,61.555,0,53.1,8.223,43.1,11.953,30.047,11.953c0,21.414-4.431,52.09,31.508,64.549C97.5,64.043,93.066,33.367,93.066,11.953Z" transform="translate(658.515 1256.004)"/>
+    <path id="security-on-3" data-name="security-on" class="cls-4" d="M53.461,4.461C48.589,4.461,44.856,3.069,41.7,0,38.543,3.069,34.81,4.461,29.938,4.461c0,7.993-1.654,19.444,11.761,24.094C55.115,23.905,53.461,12.455,53.461,4.461Z" transform="translate(678.372 1285.977)"/>
+  </g>
+</svg>

@@ -1,0 +1,108 @@
+.mycontainer {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Style for the file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Style for the file input label */
+label {
+    padding: 10px 20px;
+    background-color: #4285f4;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.image-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin-top: 20px;
+    position: relative;
+}
+
+.image-item {
+    position: relative;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.image-item img {
+    display: block;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.remove-button {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    color: #9c27b0;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+}
+
+.modal-content {
+    max-width: 80%;
+    max-height: 80%;
+}
+
+.close {
+    position: absolute;
+    top: 5px;
+    right: 10px;
+    font-size: 35px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: red;
+}
+
+.modal-image {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0 auto;
+}

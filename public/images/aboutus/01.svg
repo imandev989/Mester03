@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="-9535.265 -5751.678 59.525 82.89">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke: #4d4d4d;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        stroke-width: 4px;
+      }
+
+      .cls-2 {
+        fill: none;
+      }
+
+      .cls-3 {
+        fill: #e6e6e6;
+      }
+
+      .cls-4 {
+        fill: #fea000;
+      }
+    </style>
+  </defs>
+  <g id="Group_4765" data-name="Group 4765" transform="translate(-10576 -7004)">
+    <path id="Path_3986" data-name="Path 3986" class="cls-1" d="M7.1,14.435h0A6.972,6.972,0,0,1,0,7.336V7.1A7.119,7.119,0,0,1,7.1,0h0a7.119,7.119,0,0,1,7.1,7.1v.237A6.972,6.972,0,0,1,7.1,14.435Z" transform="translate(1076.885 1307.418) rotate(180)"/>
+    <line id="Line_427" data-name="Line 427" class="cls-2" y1="23.664" transform="translate(1069.785 1292.983) rotate(180)"/>
+    <path id="Path_3987" data-name="Path 3987" class="cls-2" d="M34.949,0H7.773L0,18.2s16.248,22.5,21.927,37.65C27.606,40.7,42.721,18.2,42.721,18.2Z" transform="translate(1091.713 1319.014) rotate(180)"/>
+    <line id="Line_266" data-name="Line 266" class="cls-2" x1="32.904" transform="translate(1053.796 1262.033)"/>
+    <rect id="Rectangle_1461" data-name="Rectangle 1461" class="cls-3" width="13.43" height="13.431" transform="translate(1098.261 1267.752) rotate(180)"/>
+    <rect id="Rectangle_1462" data-name="Rectangle 1462" class="cls-3" width="13.43" height="13.431" transform="translate(1056.166 1267.752) rotate(180)"/>
+    <rect id="Rectangle_2044" data-name="Rectangle 2044" class="cls-4" width="42.63" height="14.198" transform="translate(1091.895 1333.212) rotate(180)"/>
+  </g>
+</svg>

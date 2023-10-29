@@ -1,0 +1,15 @@
+/* .active::after{
+    content: 'sad';
+} */
+
+.active{
+    border-bottom: 3px solid red;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    /* border-radius: 10%; */
+    padding: 0px 5px 5px 5px;
+
+
+
+}

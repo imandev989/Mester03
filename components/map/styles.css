@@ -1,0 +1,112 @@
+.my-popup .leaflet-popup-content-wrapper {
+  /* padding: 10px; */
+  border-color: black;
+  width: 30vw;
+  height: 25vh;
+  /* background-color: rgb(235, 229, 229); */
+  /* padding: 10px; */
+
+
+}
+.custom-font {
+  font-family: IRANSansWeb;
+  /* font-size: 18px; */
+}
+
+
+.leaflet-popup-content {
+  width: 90% !important;
+}
+
+.map-container {
+  height: 500px;
+}
+
+.leaflet-popup-close-button {
+  background-color: red;
+  color: red;
+  /* font-size: 20px; */
+}
+
+.popup-z-index {
+  z-index: 999999 !important;
+}
+
+
+@media only screen and (min-width: 1024px) {
+  .my-popup .leaflet-popup-content-wrapper {
+    height: 22vh;
+    width: 30vw;
+    /* padding-top: 10px; */
+    /* padding: 10px; */
+    text-align: right;
+    background-color: rgb(236, 235, 235);
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .my-popup .leaflet-popup-content-wrapper {
+    height: 27.5vh;
+    width: 70vw;
+    padding-top: 12px;
+    /* background-color: green; */
+  }
+  .leaflet-popup-content {
+    width: 92% !important;
+    /* margin: 10px; */
+    margin: auto;
+    
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .my-popup .leaflet-popup-content-wrapper {
+    height: 43vh;
+    width: 50vw;
+    /* margin: 0 auto; */
+    /* padding-top: 10px; */
+    padding-right: 15px;
+    /* background-color: yellow; */
+  }
+  .leaflet-popup-content {
+    width: 92% !important;
+    /* margin: 10px; */
+    /* margin: auto; */
+    
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .my-popup .leaflet-popup-content-wrapper {
+    height: 43vh;
+    width: 50vw;
+    /* padding-top: 10px; */
+    /* padding-right: 5px; */
+    /* background-color: red; */
+    padding-left: 5px;
+  }
+  .leaflet-popup-content {
+    width: 92% !important;
+    /* margin: 10px; */
+    /* margin: auto; */
+    
+  }
+}
+
+
+@media only screen and (max-width: 520px) {
+  .my-popup .leaflet-popup-content-wrapper {
+    height: 45vh;
+    width: 70vw;
+    /* padding-top: 10px; */
+    /* padding: 10px 5px; */
+    /* background-color: red;
+    z-index: 999999 !important; */
+    margin: auto;
+  }
+  .leaflet-popup-content {
+    width: 92% !important;
+    padding-top: 10px;
+    padding-right: 5px ;
+  }
+}

@@ -15,10 +15,10 @@ const CardScrollType = () => {
         <div>
           <span className="text-lg">استخرهای پرطرفدار</span>
         </div>
-        <div className="flex gap-2 items-center">
-          <span className="text-sm text-blue-500">مشاهده همه </span>
+        <div className="flex cursor-pointer items-center">
+          <span className="text-sm text-blue-500 ">مشاهده همه </span>
           <span>
-            <IoIosArrowBack className="text-blue-500 text-sm" />
+            <IoIosArrowBack className="text-blue-500 text-xl" />
           </span>
         </div>
       </div>

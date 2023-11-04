@@ -16,7 +16,7 @@ const MainSidebarContent = () => {
     // console.log(menuItems);
 
       return (
-        <div className="flex-col items-center bg-gray-300 rounded-md">
+        <div className="flex-col items-center bg-gray-300">
           <div className="p-2 flex-col items-center  w-full">
               <div><ProfileAvatar /></div>
             <div className="bg-white rounded-xl flex justify-between mx-5 py-1 px-3 border border-black divide-x-2 divide-x-reverse divide-black">
@@ -28,8 +28,8 @@ const MainSidebarContent = () => {
               </div>
             </div>
           </div>
-          <div>
-            <ul>
+          <div >
+            <ul className="divide-y-2 divide-dashed px-2 divide-white ">
                 <li          
                   className="w-full max-w-[360px] "
                 >
@@ -40,7 +40,7 @@ const MainSidebarContent = () => {
             </ul>
           </div>
           <div>
-          <ul>
+          <ul className="divide-y divide-dashed px-2 divide-white ">
             <li className="flex justify-start p-4 items-center">
             <div className="ml-2 text-white"><IoInformationCircleSharp/></div>
   
@@ -83,7 +83,7 @@ const SingleLevel = ({ item }) => {
 
     return (
       <ul className="py-2 px-4 bg-gray-400">
-        <li className="hover:bg-gray-500 hover:rounded-full hover:px-4 hover:py-2">
+        <li className="hover:bg-gray-500 hover:rounded-xl hover:px-4 hover:py-2">
           <span className="text-sm">{item.label}</span>
         </li>
       </ul>

@@ -61,8 +61,8 @@ export default function ProductCard() {
           <div className="ml-1 text-xs"><TfiLocationPin /></div>
           <div><span className="text-gray-400 text-xs">امام رضا</span></div>
           </div>
-        <div className="flex items-center">
-            <span className="text-sm text-gray-500">مشاهده</span>
+        <div className="flex items-center cursor-pointer">
+            <span className="text-sm text-blue-500">مشاهده</span>
             {/* <span className="mr-1">
               <ArrowBackIosNewOutlinedIcon
                 fontSize="small"

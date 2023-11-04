@@ -63,8 +63,8 @@ const ProductsCards = () => {
             <span className="text-gray-400 text-xs">امام رضا</span>
           </div>
         </div>
-        <div className="flex gap-1 ">
-            <span className="text-gray-500 text-sm">مشاهده</span>
+        <div className="flex  items-center cursor-pointer">
+            <span className="text-blue-500 text-sm">مشاهده</span>
             <span>
               <IoIosArrowBack
                 className="text-blue-500 text-xl" 

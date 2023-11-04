@@ -76,11 +76,11 @@ const ProductsCards1 = () => {
                 <span className="text-gray-400 text-sm">امام رضا</span>
               </div>
             </div>
-            <div className="flex">
-                <span className="text-gray-500 text-md">مشاهده </span>
+            <div className="flex  items-center ">
+                <span className="text-blue-500  text-md cursor-pointer">مشاهده </span>
                 <span>
                   <IoIosArrowBack
-                    className="text-blue-500 text-2xl"
+                    className="text-blue-500 text-xl"
                   />
                 </span>
             </div>

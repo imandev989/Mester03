@@ -16,12 +16,12 @@ const ContactSocial = () => {
               alt="تماس با ما"
             />
           </div>
-          <div className="flex flex-col items-center gap-4 w-1/2">
+          <div className="flex flex-col items-center gap-4 lg:w-1/2">
             <div>
               <span>شبکه‌های اجتماعی</span>
             </div>
             <div className="w-full ">
-              <p className="px-2 text-justify text-xs sm:text-sm">
+              <p className="px-2 text-justify text-xs sm:text-sm w-full leading-6">
                 ما را در شبکه‌های اجتماعی دنبال کنید. پیشنهادهای جدید را در
                 صفحه‌ی اینستاگرام تخفیفان ببینید و نظرات خود را در توییتر و
                 لینکداین ما بنویسید. می‌توانید به سرعت از تخفیف‌ها با خبر شوید.

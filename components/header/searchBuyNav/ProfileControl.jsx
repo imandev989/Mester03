@@ -63,7 +63,9 @@ const ProfileControl = () => {
 
                       </div>
                       <div>
+
                         <button type="button" className="inline-flex w-full justify-center rounded-lg py-2 text-sm text-gray-900">
+                          {/* must add username here from redux */}
                           ایمان 
                         </button>
                       </div>
@@ -117,8 +119,8 @@ const ProfileControl = () => {
               </div>
             )}
           </div>
-          <div>
-            <FiShoppingCart className="text-2xl mr-2" />
+          <div className="cursor-pointer hover:text-gray-500">
+            <Link href="/basket"><FiShoppingCart className="text-2xl mr-2" /></Link>
           </div>
         </div>
       </div>

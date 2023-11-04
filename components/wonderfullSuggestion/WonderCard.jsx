@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const WonderCard = () => {
     return (
-        <div className="flex flex-col px-2 pt-4 justify-center items-center ">
+        <div className="flex flex-col px-2 pt-4 justify-center items-center  cursor-pointer">
             <div>
             <Image
             src="/images/wonderfullSuggestions/01.webp"

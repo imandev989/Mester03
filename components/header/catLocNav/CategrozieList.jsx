@@ -25,7 +25,7 @@ const CategrozieList = () => {
         </div>
         <div className="flex">
           <BiStoreAlt className="text-xl" />
-          <Link href="/my-business">
+          <Link href="/myBussines">
             {" "}
             <span className="pr-1 text-xs sm:text-sm">کسب و کار من</span>{" "}
           </Link>

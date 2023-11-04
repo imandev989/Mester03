@@ -137,7 +137,7 @@ const WonderfullSuggestion = () => {
             }}
           >
             <div
-              className={`cursor-pointer  drop-shadow-lg filter ${showRight ? 'visible' : 'invisible'} absolute right-[10%]
+              className={`cursor-pointer  drop-shadow-lg filter ${showRight ? 'visible' : 'invisible'} absolute right-[10%] z-auto
               `}
             >
               <FaArrowAltCircleRight className="text-4xl text-gray-300  opacity-80 hover:text-gray-500 rounded-full " />

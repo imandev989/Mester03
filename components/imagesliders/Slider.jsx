@@ -12,7 +12,7 @@ import "./styles.css";
 
 const Slider = () => {
   return (
-    <div className="sliderss">
+    <div className="sliderss cursor-pointer">
       <div
         style={{
           display: "flex",

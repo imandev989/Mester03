@@ -8,8 +8,8 @@ const ProfileCheck = () => {
       <div className="flex">
         <div className="flex">
           <SiCodereview className="text-xl" />
-          <Link href="/visits">
-            <span className="sm:pr-1 text-xs sm:text-sm">مسترگردی</span>
+          <Link href="/mesterPosts">
+            <span className="sm:pr-1 text-xs sm:text-sm">مستر پست</span>
           </Link>{" "}
         </div>
       </div>

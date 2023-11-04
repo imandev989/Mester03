@@ -13,13 +13,13 @@ const SortFilter = ({rowShow, setRowShow,showSort, setShowSort, showFilter, setS
     <div className="hidden lg:flex justify-between items-center bg-gray-100 rounded-lg p-4 ">
         <div className="flex justify-start items-center gap-4">
         <span><BiSortDown className="text-xl"/></span>
-        <span className="text-xs text-gray-500 ">مرتب سازی بر اساس :</span>
-          <span className="text-xs">پیشنهاد مستر</span>
-          <span className="text-xs">محبوب ترین</span>
-          <span className="text-xs">پربازدیدترین</span>
-          <span className="text-xs">جدیدترین</span>
-          <span className="text-xs">ارزان ترین</span>
-          <span className="text-xs">گران ترین</span>
+        <span className="text-xs text-gray-300 ">مرتب سازی بر اساس :</span>
+          <span className="text-xs cursor-pointer">پیشنهاد مستر</span>
+          <span className="text-xs cursor-pointer">محبوب ترین</span>
+          <span className="text-xs cursor-pointer">پربازدیدترین</span>
+          <span className="text-xs cursor-pointer">جدیدترین</span>
+          <span className="text-xs cursor-pointer">ارزان ترین</span>
+          <span className="text-xs cursor-pointer">گران ترین</span>
         </div>
         <div className=" rounded-xl flex justify-end  divide-x-2 divide-x-reverse divide-gray-800 ">
         <div className=" px-2 text-xl cursor-pointer" onClick={()=>setRowShow(true)} >

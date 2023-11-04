@@ -3,7 +3,7 @@ import { IoCloseOutline } from "react-icons/io5";
 
 const MobileSortDrawer = ({showSort,setShowSort}) => {
     return (
-        <div className="text-xl p-2 w-full bg-rose-300 absolute bottom-0 h-full ">
+        <div className="text-xl p-2 w-full bg-gray-300 absolute bottom-0 h-full ">
                   <div className="flex items-center gap-2" onClick={()=>setShowSort(false)}>
                     <div><IoCloseOutline className=" text-2xl cursor-pointer"/></div>
                     <div><span className="text-sm">مرتب سازی بر اساس :</span></div>

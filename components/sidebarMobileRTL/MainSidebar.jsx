@@ -19,7 +19,7 @@ const MainSidebar = () => {
     <div className="h-full">
     
     <div
-    className={`lg:hidden overflow-auto top-0 right-0 w-[60vw] bg-white  p-1  text-white fixed h-full z-40 ease-in-out duration-300 ${
+    className={`lg:hidden overflow-auto top-0 right-0 w-[60vw] bg-gray-200  p-1  text-white fixed h-full z-40 ease-in-out duration-300 ${
       sidebarShow ? "translate-x-0 " : "translate-x-full"
     } z-[999]`}>
       {sidebarShow && (

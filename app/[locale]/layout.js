@@ -10,10 +10,8 @@ import MainSidebar from "@/components/sidebarMobileRTL/MainSidebar";
 import MainSearch from "@/components/mainsearchmobile/MainSearch";
 // import { usePathname } from 'next/navigation';
 
-
 import { Providers } from "@/redux/Provider";
 // import { LayoutProvider } from "../LayoutProvider";
-
 
 export const metadata = {
   title: "Create Next App",
@@ -33,23 +31,25 @@ export default async function RootLayout({ children, params: { locale } }) {
     notFound();
   }
   return (
-    <html lang={locale} dir={locale == "fa" ? "rtl" : (locale == "ar" ? "rtl" : "ltr")} data-theme="light">
-
+    <html
+      lang={locale}
+      dir={locale == "fa" ? "rtl" : locale == "ar" ? "rtl" : "ltr"}
+      data-theme="light"
+    >
       <Providers>
-        <body dir={locale == "fa" ? "rtl" : (locale == "ar" ? "rtl" : "ltr")} >
+        <body dir={locale == "fa" ? "rtl" : locale == "ar" ? "rtl" : "ltr"}>
           <NextIntlClientProvider locale={locale} messages={messages}>
             {/* <LayoutProvider> */}
             <Header />
             {children}
-            <MainSidebar/>
-            <MainSearch/>
-            <Footer/>
+            <MainSidebar />
+            <MainSearch />
+            <Footer />
 
             {/* </LayoutProvider> */}
           </NextIntlClientProvider>
         </body>
       </Providers>
-
     </html>
   );
 }

@@ -5,18 +5,18 @@ import { FiMenu } from "react-icons/fi";
 import MainSidebarContetnt from "./MainSidebarContetnt";
 import { sidebarChange } from "@/redux/reducers/configSlice";
 import { useSelector, useDispatch } from "react-redux";
+import BlureHook from "../hooks/BlureHook";
 
 const MainSidebar = () => {
   // const [showSidebar, setShowSidebar] = useState(true);
 
   const sidebarShow = useSelector((state) => state.configs.sidebarToggle);
-  const blurPage = useSelector((state) => state.configs.blurPage);
   // console.log("S",sidebarShow)
   const dispatch = useDispatch();
 
   return (
     <div className="h-full">
-      <div className={`${blurPage ? "blur" : ""}`}></div>
+      <BlureHook />
       <div
         className={`lg:hidden overflow-auto top-0 right-0 w-[60vw] bg-gray-200  p-1  text-white fixed h-full z-40 ease-in-out duration-300 ${
           sidebarShow ? "translate-x-0 " : "translate-x-full"

@@ -46,7 +46,6 @@ const MenuItems = ({ items, depthLevel }) => {
       onMouseEnter={onMouseEnter}
       onMouseLeave={onMouseLeave}
       onClick={closeDropdown}
-      
     >
       {items.url && items.subItems ? (
         <>
@@ -54,8 +53,8 @@ const MenuItems = ({ items, depthLevel }) => {
             aria-haspopup="menu"
             aria-expanded={dropdown ? "true" : "false"}
             onClick={() => setDropdown((prev) => !prev)}
+            className="flex justify-between pl-6 pr-4 items-center"
           >
-            
             <div>
               {depthLevel === 0 ? (
                 items.label
@@ -66,7 +65,7 @@ const MenuItems = ({ items, depthLevel }) => {
 
             <div>
               {depthLevel > 0 ? (
-                <IoMdArrowDropleft className="text-black text-sm"/>
+                <IoMdArrowDropleft className="text-black text-xl" />
               ) : (
                 ""
               )}
@@ -80,7 +79,6 @@ const MenuItems = ({ items, depthLevel }) => {
         </>
       ) : !items.url && items.subItems ? (
         <>
-          
           <div
             className="flex justify-between gap-4"
             aria-haspopup="menu"
@@ -88,12 +86,17 @@ const MenuItems = ({ items, depthLevel }) => {
             onClick={() => setDropdown((prev) => !prev)}
           >
             <div>{items.icon}</div>
-            <div className="text-gray-900" style={ { color: depthLevel == 0 ? 'white' : 'black'} }>{items.label}</div>
+            <div
+              className="text-gray-900"
+              style={{ color: depthLevel == 0 ? "white" : "black" }}
+            >
+              {items.label}
+            </div>
             <div>
               {" "}
               {depthLevel > 0 ? (
-                <IoMdArrowDropleft className="text-black text-sm"/>
-                ) : (
+                <IoMdArrowDropleft className="text-black text-sm" />
+              ) : (
                 ""
               )}
             </div>
@@ -105,7 +108,7 @@ const MenuItems = ({ items, depthLevel }) => {
           />
         </>
       ) : (
-        <Link href={items.url} >{items.label}</Link>
+        <Link href={items.url}>{items.label}</Link>
       )}
     </li>
   );

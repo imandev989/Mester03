@@ -85,7 +85,7 @@ const CategoryTabPanel = () => {
           {/* <div className="blur"></div> */}
 
           <div
-            className={`lg:hidden overflow-auto   shadow-lg top-0 bottom-0 right-0 left-0 w-full bg-white  text-white fixed  z-60 ease-in-out duration-300 ${
+            className={`lg:hidden overflow-auto   shadow-lg top-0 bottom-0 right-0 left-0 w-full   text-white fixed  z-10 ease-in-out duration-300 ${
               showFilter ? "translate-x-0 " : "translate-x-full"
             }`}
           >

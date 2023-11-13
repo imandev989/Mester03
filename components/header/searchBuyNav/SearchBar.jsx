@@ -21,9 +21,8 @@ const SearchBarContainer = styled(motion.div)`
 
   box-shadow: 0px 0px 12px 3px rgba(0, 0, 0, 0.14);
   overflow: hidden;
-  position:absolute;
+  position: absolute;
   z-index: 9999;
-
 `;
 
 const SearchInputContainer = styled.div`
@@ -32,7 +31,7 @@ const SearchInputContainer = styled.div`
   display: flex;
   align-items: center;
   padding: 10px 15px;
-  position:relative;
+  position: relative;
 `;
 
 const SearchInput = styled.input`
@@ -45,8 +44,8 @@ const SearchInput = styled.input`
   font-weight: 500;
   border-radius: 6px;
   background-color: transparent;
-  padding-right:10px;
-  
+  padding-right: 10px;
+
   &:focus {
     outline: none;
     &::placeholder {
@@ -139,7 +138,6 @@ const SearchBar = (props) => {
         ref={searchExpand}
         className="SearchContainer"
       >
-        
         <SearchInputContainer>
           <SearchIcon>
             <IoIosSearch className="text-2xl" />
@@ -172,7 +170,6 @@ const SearchBar = (props) => {
         <SearchContent></SearchContent>
       </SearchBarContainer>
     </div>
-
   );
 };
 

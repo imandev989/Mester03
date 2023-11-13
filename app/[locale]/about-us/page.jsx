@@ -1,9 +1,4 @@
-// import { Container } from "@mui/material";
-import Image from "next/image";
-import { FcDonate } from "react-icons/fc";
-import { FcDownload } from "react-icons/fc";
-
-import { FcStatistics } from "react-icons/fc";
+import { FcDonate, FcDownload, FcStatistics } from "react-icons/fc";
 
 const AboutUs = () => {
   return (

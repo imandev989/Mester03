@@ -4,7 +4,7 @@ const MobileFilterDrawer = ({ showFilter, setShowFilter }) => {
   return (
     <>
       {/* <div className="blur"></div> */}
-      <div className="text-xl p-2 w-full  bg-gray-300 fixed bottom-0 h-1/2 rounded-xl shadow-lg ">
+      <div className="text-xl p-2 w-full  bg-gray-300 fixed bottom-0 h-1/2 rounded-xl shadow-lg  z-50">
         <div
           className="flex items-center justify-between gap-2 px-2 py-4"
           onClick={() => setShowFilter(false)}

@@ -23,7 +23,7 @@ const CategoryTabPanel = () => {
   // console.log("ITEMS21231",items);
   return (
     <div>
-      <div className="w-full mb-2">
+      <div className={`w-full mb-2 ${showFilter ? "blur-sm" : ""}`}>
         <SortFilter
           rowShow={rowShow}
           setRowShow={setRowShow}
@@ -33,7 +33,7 @@ const CategoryTabPanel = () => {
           setShowFilter={setShowFilter}
         />
       </div>
-      <div>
+      <div className={`${showFilter ? "blur-sm" : ""}`}>
         <Tabs>
           {items.map((item, key) => (
             <Tab label={item.label} key={key}>

@@ -82,7 +82,7 @@ const CategoryTabPanel = () => {
       )}
       {showFilter && (
         <div className="h-full">
-          {/* <div className="blur"></div> */}
+          <div className="blur"></div>
 
           <div
             className={`lg:hidden overflow-auto   shadow-lg top-0 bottom-0 right-0 left-0 w-full   text-white fixed  z-10 ease-in-out duration-300 ${

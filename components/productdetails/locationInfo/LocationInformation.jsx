@@ -109,8 +109,8 @@ const LocationInformation = () => {
       </div>
 
       {mapPopup && (
-        <div className="myblur">
-          <div className="popupBox flex flex-col justify-start fixed w-[50vw] h-[70vh]  p-12">
+        <div className="myblur w-full h-full">
+          <div className="popupBox flex flex-col justify-start fixed w-full h-full lg:w-[50vw] lg:h-[70vh] ">
             <div className=" z-10 ">
               <span
                 className="absolute left-3 top-3"

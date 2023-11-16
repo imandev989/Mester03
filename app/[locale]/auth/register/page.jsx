@@ -74,7 +74,6 @@ const Register = () => {
           variant="filled"
         />
         <input
-          type="text"
           id="filled-password-input"
           label="Password"
           type="password"

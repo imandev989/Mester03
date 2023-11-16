@@ -8,7 +8,7 @@ import { IoIosArrowForward } from "react-icons/io";
 import { useRouter } from "next/navigation";
 
 export default function Layout({ children }) {
-  const [showItem, setShowItem] = useState(true);
+  const [showItem, setShowItem] = useState(false);
   // const router = useRouter()
   const router = useRouter();
 
@@ -45,9 +45,13 @@ export default function Layout({ children }) {
           </div>
         </div>
         {showItem && (
-          <div className="fixed top-0 right-0 bottom-0 left-0 w-full h-full bg-white pt-28 ">
-            <div className="p-4 text-4xl" onClick={() => handleback()}>
-              <IoIosArrowForward />
+          <div className="fixed top-0 right-0 bottom-0 left-0 w-full h-full bg-white pt-32">
+            <div
+              className="flex gap-2 items-center p-2 rounded-md text-sm mb-4 text-white bg-gray-800 w-[30%] mr-4 "
+              onClick={() => handleback()}
+            >
+              <IoIosArrowForward className="text-2xl" />
+              <p className="text-sm">پروفایل</p>
             </div>
 
             {children}

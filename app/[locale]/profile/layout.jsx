@@ -18,7 +18,7 @@ export default function Layout({ children }) {
   };
 
   return (
-    <div className="container mx-auto  h-full my-6 bg-gray-300 p-2 rounded-md">
+    <div className="container mx-auto  h-full my-6 p-2 rounded-md">
       <div className="hidden lg:flex justify-between items-start  gap-4 h-[100%] 	">
         <div className="flex flex-col w-full lg:w-[25%]  mx-4 lg:mx-0 gap-4 h-[100%] ">
           <div className="bg-gray-100 shadow-lg rounded-lg">

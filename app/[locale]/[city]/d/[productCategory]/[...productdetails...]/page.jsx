@@ -52,7 +52,7 @@ const ProductDetails = ({ params, searchParams }) => {
         {/* <div id="questionAnswer"><QuestionAnswer /></div> */}
         <div
           id=""
-          className="p-4 w-full shadow-md sticky my-4 bg-gray-100 rounded-md"
+          className="lg:p-4 w-full shadow-md sticky my-4 bg-gray-100 rounded-md"
         >
           <ProductsList />
         </div>

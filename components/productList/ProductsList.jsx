@@ -23,7 +23,7 @@ const ProductsList = () => {
 
   return (
     <div className="lg:py-4 relative flex flex-col lg:flex-row gap-2 ">
-      <div className="w-[100%] lg:w-[20%] lg:h-[400px] lg:pl-2 flex bg-rose-100 justify-end sticky top-[150px] lg:top-[210px] right-0 border-gray-500  lg:border lg:rounded-lg lg:border-dotted ">
+      <div className="w-[100%] lg:w-[20%] lg:h-[400px] lg:pl-2 flex bg-gray-100 lg:bg-none justify-end sticky top-[150px] lg:top-[210px] right-0 border-gray-500  lg:border lg:rounded-lg lg:border-dotted ">
         <ul className="my-4 flex shrink-0 gap-2 lg:flex-col overflow-y-scroll scrollbar-hide ">
           {datas.map((data, key) => (
             <li
@@ -38,7 +38,7 @@ const ProductsList = () => {
       <div className=" border border-gray-300  rounded-lg w-full lg:w-[60%]    ">
         {datas.map((data, key) => (
           <div className="   mb-6" key={key}>
-            <div className="lg:my-4 ">
+            <div className="my-4 ">
               <p className="text-center">{data.title}</p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border border-x-0 border-gray-300  ">
@@ -109,7 +109,7 @@ const ProductsList = () => {
           <span className="text-gray-400 text-sm">سبد خرید شما خالی است!</span>
         </div>
       </div>
-      <div className=" h-[50vh] lg:hidden border border-dotted rounded-lg border-gray-700">
+      <div className=" h-[50vh] lg:hidden border border-dotted rounded-lg border-gray-700 mt-4">
         <div className="flex flex-col gap-4 justify-center items-center p-4  h-full">
           <span className="text-gray-400 text-5xl">
             <CiShoppingBasket />

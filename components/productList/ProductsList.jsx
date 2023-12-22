@@ -5,6 +5,7 @@ import { CiShoppingBasket } from "react-icons/ci";
 import Image from "next/image";
 import ProductExtraPopup from "./ProductExtraPopup";
 import { useState } from "react";
+import Link from "next/link";
 
 const ProductsList = () => {
   const datas = getProductList();
@@ -20,6 +21,11 @@ const ProductsList = () => {
     }
   };
   const [showPopUp, setShowPopUp] = useState(false);
+  const [active, setActive] = useState(0);
+  const activeLink = (key) => {
+    console.log("ACTIVE IS", key);
+    setActive(key);
+  };
 
   return (
     <div className="lg:py-4 relative flex flex-col lg:flex-row gap-2 ">
@@ -28,9 +34,14 @@ const ProductsList = () => {
           {datas.map((data, key) => (
             <li
               key={key}
-              className="text-gray-500 text-left cursor-pointer lg:border-0 lg:border-gray-800 lg:border-l-0 pl-2  my-2 text-xs  "
+              className={`text-gray-500 text-left cursor-pointer   lg:pl-2 lg:pb-0 pb-2 my-2 text-xs  ${
+                active == key
+                  ? "lg:border-2 lg:border-y-0 lg:border-r-0 lg:border-gray-800  border-2 border-x-0 border-t-0 border-b-2 border-gray-800 "
+                  : ""
+              }`}
+              onClick={() => activeLink(key)}
             >
-              {data.title}
+              <Link href={` #${active.toString()} `}>{data.title}</Link>
             </li>
           ))}
         </ul>
@@ -39,7 +50,9 @@ const ProductsList = () => {
         {datas.map((data, key) => (
           <div className="   mb-6" key={key}>
             <div className="my-4 ">
-              <p className="text-center">{data.title}</p>
+              <p className="text-center " id={key}>
+                {data.title}
+              </p>
             </div>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 border border-x-0 border-gray-300  ">
               {data.products.map((product, key) => {

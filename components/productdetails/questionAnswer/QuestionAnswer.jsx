@@ -58,7 +58,10 @@ const QuestionAnswer = () => {
                 <div className=" w-full flex flex-col gap-4 ">
                   {comment.response?.map((res, index1) => {
                     return (
-                      <div className="flex gap-4 w-full items-center">
+                      <div
+                        className="flex gap-4 w-full items-center"
+                        key={index1}
+                      >
                         <BsReply className="text-2xl text-green-500" />
 
                         <div

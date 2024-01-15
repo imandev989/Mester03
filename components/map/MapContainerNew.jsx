@@ -49,8 +49,8 @@ import imanMarker3 from "leaflet/dist/images/layers.png";
 // })
 
 const customIcon = () => {
-  return <img src="../../public/Icons/marker.png" />;
-  // return <Image src="../../public/icons/marker.png" />;
+  // return <img src="../../public/Icons/marker.png" />;
+  return <Image src="../../public/icons/marker.png" alt="مارکر" />;
 };
 
 const points = myData.features.filter((f) => f.properties.subType === "Point");

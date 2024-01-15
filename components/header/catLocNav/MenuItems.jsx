@@ -59,7 +59,10 @@ const MenuItems = ({ items, depthLevel }) => {
               {depthLevel === 0 ? (
                 items.label
               ) : (
-                <Link href={items.url}>{items.label}</Link>
+                <div className="flex gap-4">
+                  <span>{items.icon}</span>
+                  <Link href={items.url}>{items.label}</Link>
+                </div>
               )}
             </div>
 

@@ -1,9 +1,11 @@
+import PostCard from "@/components/mesterPosts/PostCard";
+
 const MesterPosts = () => {
-    return (
-        <div>
-            این صفحه مربوط به پست های مستر می باشد
-        </div>
-    );
-}
+  return (
+    <>
+      <PostCard />
+    </>
+  );
+};
 
 export default MesterPosts;
